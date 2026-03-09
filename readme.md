@@ -7,6 +7,9 @@ This repository contains a collection of notes, examples, and demonstration file
 The project is organized into a few key files and directories:
 
 - `express-basic.js` - A minimal Express server example.
+- `api.js` - An Express server demonstrating API endpoints that serve JSON data from `data.js`.
+- `data.js` - Sample data file containing products and people arrays exported as modules.
+- `routeParams.js` - An Express server demonstrating route parameters to fetch individual resources by ID.
 - `expressFromFile.js` - An Express setup demonstrating loading content from external files.
 - `http-server.js` - A basic HTTP server implemented without Express for comparison.
 - `package.json` - Contains project metadata and dependencies.
