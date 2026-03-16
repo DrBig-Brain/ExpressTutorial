@@ -10,16 +10,18 @@ The project is organized into a few key files and directories:
 - `api.js` - An Express server demonstrating API endpoints that serve JSON data from `data.js`.
 - `data.js` - Sample data file containing products and people arrays exported as modules.
 - `routeParams.js` - An Express server demonstrating route parameters to fetch individual resources by ID.
+- `middleware.js` - An Express server demonstrating the use of middleware functions.
+- `queryString.js` - An Express server demonstrating query string parameters for filtering and limiting data.
 - `expressFromFile.js` - An Express setup demonstrating loading content from external files.
 - `http-server.js` - A basic HTTP server implemented without Express for comparison.
 - `package.json` - Contains project metadata and dependencies.
 - `readme.md` - This file.
-- `app/` - Contains a simple HTML application with a navigation bar example.
+- `app/` - Contains a simple HTML application example.
   - `index.html` - Main HTML file for the app example.
-  - `navbar-app/` - Subfolder with its own frontend code.
-    - `browser-app.js` - Client-side JavaScript for the navbar application.
-    - `index.html` - HTML for the navbar example.
-    - `styles.css` - Styling for the navbar app.
+- `navbar-app/` - A separate frontend application with navigation bar functionality.
+  - `browser-app.js` - Client-side JavaScript for the navbar application.
+  - `index.html` - HTML for the navbar example.
+  - `styles.css` - Styling for the navbar app.
 - `public/` - Static assets served by Express in some examples.
   - `browser-app.js` - Client script for frontend demo.
   - `styles.css` - CSS for frontend demo.
