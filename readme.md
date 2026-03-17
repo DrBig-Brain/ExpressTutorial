@@ -69,3 +69,15 @@ This is a personal notes repository, but you're welcome to fork it and adapt it 
 ---
 
 *Created by DrBigBrain on Linux, March 2026.*
+## 📅 Updates — March 17, 2026
+
+- **Added `GET.js`**: a small Express server (listens on port 5000) that serves static files from `method-public`, provides a `POST /login` route for the traditional form example, and a `GET /api/people` endpoint that returns the sample `people` data from `data.js`.
+
+- **Added `method-public/`**: static demo files including:
+  - `index.html` — a traditional HTML form that posts to `/login` (method: POST).
+  - `javascript.html` — a JS-driven example that fetches `GET /api/people` (via Axios) and attempts to `POST` to `/api/people` from the client.
+  - `styles.css`, `normalize.css` — styling for the examples.
+
+- **Note:** The JavaScript demo posts to `/api/people` from the client; ensure a server-side `POST /api/people` handler exists if you expect the client to add people. `GET.js` currently implements `GET /api/people` and `POST /login`.
+
+*Created by DrBigBrain on Linux, March 2026.*
